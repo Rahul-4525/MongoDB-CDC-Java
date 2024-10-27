@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: #mongodb+srv || mongodb:// [must have replicas]
+      database: #db name
+  application:
+    name: UserService
+server:
+  port: 9004
+  servlet:
+    context-path: /api
